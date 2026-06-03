@@ -29,7 +29,7 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
 
   if (isMobile) {
     return (
-      <nav className="fixed bottom-0 left-0 right-0 flex h-16 items-center justify-around border-t border-[#222222] bg-[#111111] md:hidden">
+      <nav className="fixed bottom-0 left-0 right-0 z-50 flex h-16 items-center justify-around border-t border-[#222222] bg-[#111111] md:hidden">
         {menuItems.map((item) => (
           <button
             key={item.id}

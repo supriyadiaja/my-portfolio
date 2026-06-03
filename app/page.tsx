@@ -29,7 +29,7 @@ export default function Page() {
   return (
     <div className="flex min-h-screen bg-[#0a0a0a] text-[#ededed]">
       <Sidebar activeSection={activeSection} onNavigate={setActiveSection} />
-      <main className="w-full pl-0 pt-12 md:pl-12">
+      <main className="w-full pl-0 pt-12 md:pl-12 pb-20 md:pb-0">
         <div className="mx-auto max-w-2xl px-6 md:px-0">
           {renderSection()}
           <Footer />
