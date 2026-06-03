@@ -1,6 +1,6 @@
 export const profile = {
   name: "Supriyadi",
-  role: "Web Developer & IT Support Services",
+  role: "Web Developer | IT Support Services | Vibe Coding",
   bio: "Saya adalah seorang web developer berpengalaman dengan keahlian di frontend dan backend development. Selain itu, saya juga memiliki background di IT support dengan pengalaman dalam memberikan support teknis kepada klien enterprise dan menangani troubleshooting hardware/software.",
   avatar: "/foto-profile.png",
   email: "supriyd18@gmail.com",
